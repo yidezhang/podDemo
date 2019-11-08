@@ -1,0 +1,6 @@
+framework module YDPodDemoLib {
+  umbrella header "YDPodDemoLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
