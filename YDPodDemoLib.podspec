@@ -31,9 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'YDPodDemoLib/Classes/**/*'
-  
+EOS
   s.subspec 'JFNotices' do |ss|
-    ss.source_files = '*'
+    ss.source_files = 'YDPodDemoLib/Classes/JFNotices/*'
     ss.public_header_files = '*.h'
   end
   
