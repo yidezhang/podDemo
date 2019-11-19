@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "JFNoticeScrollView.h"
 
 FOUNDATION_EXPORT double YDPodDemoLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char YDPodDemoLibVersionString[];

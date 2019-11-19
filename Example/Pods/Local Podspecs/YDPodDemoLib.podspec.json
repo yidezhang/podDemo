@@ -1,19 +1,19 @@
 {
   "name": "YDPodDemoLib",
-  "version": "0.1.0",
-  "summary": "A short description of YDPodDemoLib.",
+  "version": "0.1.2",
+  "summary": "测试代码",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yidezhang/YDPodDemoLib",
+  "homepage": "https://github.com/yidezhang/podDemo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "yidezhang": "zhangyide@9fbank.cc"
+    "yidezhang": "zhyd8911@163.com"
   },
   "source": {
-    "git": "https://github.com/yidezhang/YDPodDemoLib.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/yidezhang/podDemo.git",
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"

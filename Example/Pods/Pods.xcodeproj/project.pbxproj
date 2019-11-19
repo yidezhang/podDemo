@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		025749FE73B52C4BF8ED0B83A37A51FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		055329AF8E83AB98F15AA5C6A7F2EB12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
@@ -16,22 +15,24 @@
 		1F9280FD68162A1F08392672B02680F4 /* Pods-YDPodDemoLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B4B7CA4F86C854B881E0BCCB457233 /* Pods-YDPodDemoLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DA016490F08DE31759F23109581A5F7 /* Pods-YDPodDemoLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF12677244874BDAFFCE2E650FD6CEA /* Pods-YDPodDemoLib_Example-dummy.m */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
+		36DFEE3EAAAE81426C20EB958FA1FBE2 /* JFNoticeScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA318F7B24E093A98193CA13249F8760 /* JFNoticeScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
 		7783C6E75D62F02937700BA5CC6A8B21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		807366DA86A7BAA5154609BDEFDCB307 /* YDPodDemoLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4406199826F2B3AA6EB21D510B4D401 /* YDPodDemoLib-dummy.m */; };
-		819A3C546DFF88AEB732FD60CAF11E3A /* YDPodDemoLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C252E10850DA56D315EEE3BCFF10B17C /* YDPodDemoLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		880D532DEB2AB49C813D5FF2C80ED3EE /* YDPodDemoLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 546F93E1BBEA2E37EC8B49229E6F4AAD /* YDPodDemoLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90A39C6A5AFDB5143DE16BE88C73C04A /* Pods-YDPodDemoLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90E3989148233D972E99FACB51AA66B0 /* Pods-YDPodDemoLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
-		9D868ACD14B759BAE93815A4EAD1E4F2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 220525E30DD9321B3ACFFD95EF090023 /* ReplaceMe.m */; };
+		A23DAA601904560A4151EBE5B6D4073F /* YDPodDemoLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAC421E344772957AF426C8E88BB4FB /* YDPodDemoLib-dummy.m */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
+		A99144FF55EB5CCC677DD554CE1FACA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C52A3B7E34331FB094438189C42438D7 /* JFNoticeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1C9DF15BBD6DC9975E7F2AE3FE854D /* JFNoticeScrollView.m */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
@@ -65,26 +66,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		064416F04A862BE98A8A08ADEFF2185F /* YDPodDemoLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDPodDemoLib.xcconfig; sourceTree = "<group>"; };
 		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		16CF6CAC060687134B9C76D93C4074EA /* Pods-YDPodDemoLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDPodDemoLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		1D68BCA896757D3E217A7BA399EA629B /* Pods-YDPodDemoLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YDPodDemoLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1E7943289306AC424C4FC2A032D58503 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		1E819412862AFA2D31D56AC39A5C49B5 /* YDPodDemoLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDPodDemoLib-prefix.pch"; sourceTree = "<group>"; };
-		220525E30DD9321B3ACFFD95EF090023 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YDPodDemoLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		2A4897608EB2D81F9E5E8C63ACED0BC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		344319AA29F0E20F81D9DB2105FAD63C /* Pods-YDPodDemoLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YDPodDemoLib_Example.modulemap"; sourceTree = "<group>"; };
 		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		3C2BD1A6D4C5FA13EE7F4957D20B36C6 /* Pods-YDPodDemoLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDPodDemoLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		44B4B7CA4F86C854B881E0BCCB457233 /* Pods-YDPodDemoLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YDPodDemoLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4FC92A3CF2932DE9045641ECD8FE2274 /* YDPodDemoLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YDPodDemoLib.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		50125CC2CDECECEA3355918DA4D9348F /* Pods-YDPodDemoLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDPodDemoLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		514D1EC416018398DC15E1945C3BD940 /* Pods-YDPodDemoLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YDPodDemoLib_Tests.modulemap"; sourceTree = "<group>"; };
+		546F93E1BBEA2E37EC8B49229E6F4AAD /* YDPodDemoLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDPodDemoLib-umbrella.h"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		633A7F5997F8CAC688666073B09DA85D /* Pods-YDPodDemoLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YDPodDemoLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		650AF6B8FB6AD1C8D1F7C395347FF895 /* YDPodDemoLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YDPodDemoLib.modulemap; sourceTree = "<group>"; };
 		6F652B47F0C9F4643119CCF85D64B332 /* Pods-YDPodDemoLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YDPodDemoLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6FA8924EC86455AAAD62F1F545527988 /* YDPodDemoLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDPodDemoLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -101,17 +102,17 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		AB2F5D2AE4D54A445D459D50D24BA32C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		AE0123E766DA22024AF2113AB70703B1 /* YDPodDemoLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDPodDemoLib.xcconfig; sourceTree = "<group>"; };
+		B1671060B070467293F7AD37C36ABCED /* YDPodDemoLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YDPodDemoLib.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		B2A20128EFA6B0566C950FCE87399C2C /* Pods-YDPodDemoLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDPodDemoLib_Example-Info.plist"; sourceTree = "<group>"; };
 		B75EA01AFE17E47062DAA717E64C186A /* Pods-YDPodDemoLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDPodDemoLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B9BF4A1B003C1C1C3D27E6EFF4CBE5CB /* Pods-YDPodDemoLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YDPodDemoLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C252E10850DA56D315EEE3BCFF10B17C /* YDPodDemoLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDPodDemoLib-umbrella.h"; sourceTree = "<group>"; };
-		C7E79ACDCE02139F7D54C5F13A38FF71 /* YDPodDemoLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YDPodDemoLib.modulemap; sourceTree = "<group>"; };
+		BA318F7B24E093A98193CA13249F8760 /* JFNoticeScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JFNoticeScrollView.h; path = YDPodDemoLib/Classes/JFNotices/JFNoticeScrollView.h; sourceTree = "<group>"; };
+		BBAC421E344772957AF426C8E88BB4FB /* YDPodDemoLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YDPodDemoLib-dummy.m"; sourceTree = "<group>"; };
+		BFA9E49C176DD4F2DDA0C2628A0C073A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C1DC09665A18AD4F6F3BD5BD739B95ED /* YDPodDemoLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDPodDemoLib-prefix.pch"; sourceTree = "<group>"; };
 		CBF12677244874BDAFFCE2E650FD6CEA /* Pods-YDPodDemoLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDPodDemoLib_Example-dummy.m"; sourceTree = "<group>"; };
 		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		D4406199826F2B3AA6EB21D510B4D401 /* YDPodDemoLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YDPodDemoLib-dummy.m"; sourceTree = "<group>"; };
 		DB92B82F74D3677843D046DC87E419B0 /* Pods-YDPodDemoLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDPodDemoLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
@@ -119,18 +120,19 @@
 		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		E8CDA611B353A04EB120C8C8E8EB7E1E /* Pods_YDPodDemoLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDPodDemoLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		EC1C9DF15BBD6DC9975E7F2AE3FE854D /* JFNoticeScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JFNoticeScrollView.m; path = YDPodDemoLib/Classes/JFNotices/JFNoticeScrollView.m; sourceTree = "<group>"; };
 		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		F2D426BDEE964972B677F0C4485F2040 /* Pods-YDPodDemoLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDPodDemoLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F5E28B7CE370662CE98A33F17276200A /* YDPodDemoLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YDPodDemoLib-Info.plist"; sourceTree = "<group>"; };
 		FA882636FEF543B961DB0F83E02093E1 /* Pods-YDPodDemoLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDPodDemoLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FC038FFA274A61FF635B0B736E41C7AF /* YDPodDemoLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YDPodDemoLib-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		68404FADEDEB607FD27E254F5068798F /* Frameworks */ = {
+		36AE6040DEDCEE7687D6C64E4F8F4F24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				025749FE73B52C4BF8ED0B83A37A51FF /* Foundation.framework in Frameworks */,
+				A99144FF55EB5CCC677DD554CE1FACA9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,12 +166,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		118311A3C4F11B4C07003F82C9EF4BED /* YDPodDemoLib */ = {
+		1BD8A9D4A4DDD034C1CB152D0D23DF00 /* YDPodDemoLib */ = {
 			isa = PBXGroup;
 			children = (
-				220525E30DD9321B3ACFFD95EF090023 /* ReplaceMe.m */,
-				61AAD42A662220DD5D1080B0F46322D7 /* Pod */,
-				46BEB2D7A821D04E5BB501945227A23C /* Support Files */,
+				BA318F7B24E093A98193CA13249F8760 /* JFNoticeScrollView.h */,
+				EC1C9DF15BBD6DC9975E7F2AE3FE854D /* JFNoticeScrollView.m */,
+				FF46D775A6D82BE91F2587B4A9FA34FA /* Pod */,
+				3BAFD5032EB039BB0F6CA55B57B1BB97 /* Support Files */,
 			);
 			name = YDPodDemoLib;
 			path = ../..;
@@ -182,6 +185,20 @@
 				EEF2428140111503713E07E209F6E0E4 /* Pods-YDPodDemoLib_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3BAFD5032EB039BB0F6CA55B57B1BB97 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				650AF6B8FB6AD1C8D1F7C395347FF895 /* YDPodDemoLib.modulemap */,
+				064416F04A862BE98A8A08ADEFF2185F /* YDPodDemoLib.xcconfig */,
+				BBAC421E344772957AF426C8E88BB4FB /* YDPodDemoLib-dummy.m */,
+				F5E28B7CE370662CE98A33F17276200A /* YDPodDemoLib-Info.plist */,
+				C1DC09665A18AD4F6F3BD5BD739B95ED /* YDPodDemoLib-prefix.pch */,
+				546F93E1BBEA2E37EC8B49229E6F4AAD /* YDPodDemoLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YDPodDemoLib";
 			sourceTree = "<group>";
 		};
 		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
@@ -198,20 +215,6 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		46BEB2D7A821D04E5BB501945227A23C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C7E79ACDCE02139F7D54C5F13A38FF71 /* YDPodDemoLib.modulemap */,
-				AE0123E766DA22024AF2113AB70703B1 /* YDPodDemoLib.xcconfig */,
-				D4406199826F2B3AA6EB21D510B4D401 /* YDPodDemoLib-dummy.m */,
-				FC038FFA274A61FF635B0B736E41C7AF /* YDPodDemoLib-Info.plist */,
-				1E819412862AFA2D31D56AC39A5C49B5 /* YDPodDemoLib-prefix.pch */,
-				C252E10850DA56D315EEE3BCFF10B17C /* YDPodDemoLib-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YDPodDemoLib";
-			sourceTree = "<group>";
-		};
 		5E317A2337FAD07142532DB4DE1E98F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,16 +224,6 @@
 				6FA8924EC86455AAAD62F1F545527988 /* YDPodDemoLib.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		61AAD42A662220DD5D1080B0F46322D7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1E7943289306AC424C4FC2A032D58503 /* LICENSE */,
-				AB2F5D2AE4D54A445D459D50D24BA32C /* README.md */,
-				4FC92A3CF2932DE9045641ECD8FE2274 /* YDPodDemoLib.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
@@ -250,6 +243,14 @@
 				82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		84B09CCA3C9BB553B0BC1EC3C3F6CC4C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BD8A9D4A4DDD034C1CB152D0D23DF00 /* YDPodDemoLib */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
@@ -312,7 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F2445D32C8F24B774E227681F55E4480 /* Development Pods */,
+				84B09CCA3C9BB553B0BC1EC3C3F6CC4C /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				5E317A2337FAD07142532DB4DE1E98F9 /* Products */,
@@ -345,17 +346,28 @@
 			path = "Target Support Files/Pods-YDPodDemoLib_Tests";
 			sourceTree = "<group>";
 		};
-		F2445D32C8F24B774E227681F55E4480 /* Development Pods */ = {
+		FF46D775A6D82BE91F2587B4A9FA34FA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				118311A3C4F11B4C07003F82C9EF4BED /* YDPodDemoLib */,
+				2A4897608EB2D81F9E5E8C63ACED0BC8 /* LICENSE */,
+				BFA9E49C176DD4F2DDA0C2628A0C073A /* README.md */,
+				B1671060B070467293F7AD37C36ABCED /* YDPodDemoLib.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0C527AAE3B5BB05E2A39F08977B1DD87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DFEE3EAAAE81426C20EB958FA1FBE2 /* JFNoticeScrollView.h in Headers */,
+				880D532DEB2AB49C813D5FF2C80ED3EE /* YDPodDemoLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,14 +380,6 @@
 				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
 				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
 				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		446FE90C1C4C4DF8B9B320108AF2012C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				819A3C546DFF88AEB732FD60CAF11E3A /* YDPodDemoLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,12 +443,12 @@
 		};
 		82030042880A97193357B5A496E992FA /* YDPodDemoLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4F6823363F333E16E3DD2372D72C79A /* Build configuration list for PBXNativeTarget "YDPodDemoLib" */;
+			buildConfigurationList = C18265655A1FB9A35B1E0D7713016279 /* Build configuration list for PBXNativeTarget "YDPodDemoLib" */;
 			buildPhases = (
-				446FE90C1C4C4DF8B9B320108AF2012C /* Headers */,
-				835331C03ACAC6D60A6F7E3F266D16D6 /* Sources */,
-				68404FADEDEB607FD27E254F5068798F /* Frameworks */,
-				6DE4C7E51D6339DED48ABB763C34EC25 /* Resources */,
+				0C527AAE3B5BB05E2A39F08977B1DD87 /* Headers */,
+				A1C7C4CF3329C823260131FE1C4D57FA /* Sources */,
+				36AE6040DEDCEE7687D6C64E4F8F4F24 /* Frameworks */,
+				A52D49E28A0048F4E4F1DCEDFA2B72DA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -517,7 +521,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DE4C7E51D6339DED48ABB763C34EC25 /* Resources */ = {
+		A52D49E28A0048F4E4F1DCEDFA2B72DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -534,12 +538,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		835331C03ACAC6D60A6F7E3F266D16D6 /* Sources */ = {
+		A1C7C4CF3329C823260131FE1C4D57FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D868ACD14B759BAE93815A4EAD1E4F2 /* ReplaceMe.m in Sources */,
-				807366DA86A7BAA5154609BDEFDCB307 /* YDPodDemoLib-dummy.m in Sources */,
+				C52A3B7E34331FB094438189C42438D7 /* JFNoticeScrollView.m in Sources */,
+				A23DAA601904560A4151EBE5B6D4073F /* YDPodDemoLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +603,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0218EFB9943E9EDB7A3B3F1D2326AD61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064416F04A862BE98A8A08ADEFF2185F /* YDPodDemoLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YDPodDemoLib/YDPodDemoLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YDPodDemoLib/YDPodDemoLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YDPodDemoLib/YDPodDemoLib.modulemap";
+				PRODUCT_MODULE_NAME = YDPodDemoLib;
+				PRODUCT_NAME = YDPodDemoLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		43136A496A12AEE28473E9B6C8E55B26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F2D426BDEE964972B677F0C4485F2040 /* Pods-YDPodDemoLib_Example.release.xcconfig */;
@@ -691,37 +727,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		4DC0440CEB09D09BBF5E36D1B499390D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE0123E766DA22024AF2113AB70703B1 /* YDPodDemoLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YDPodDemoLib/YDPodDemoLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YDPodDemoLib/YDPodDemoLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YDPodDemoLib/YDPodDemoLib.modulemap";
-				PRODUCT_MODULE_NAME = YDPodDemoLib;
-				PRODUCT_NAME = YDPodDemoLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		50F11FB90EB42652AEDAAD5E45B955DE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -853,6 +858,37 @@
 			};
 			name = Debug;
 		};
+		8EA76696333438CC033E1BE66B9844AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064416F04A862BE98A8A08ADEFF2185F /* YDPodDemoLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YDPodDemoLib/YDPodDemoLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YDPodDemoLib/YDPodDemoLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YDPodDemoLib/YDPodDemoLib.modulemap";
+				PRODUCT_MODULE_NAME = YDPodDemoLib;
+				PRODUCT_NAME = YDPodDemoLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		AD83E6266A6F02C19EEB485ED994706A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA882636FEF543B961DB0F83E02093E1 /* Pods-YDPodDemoLib_Example.debug.xcconfig */;
@@ -885,38 +921,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		B0367418331B1EE6130DA9118C1E51F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE0123E766DA22024AF2113AB70703B1 /* YDPodDemoLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YDPodDemoLib/YDPodDemoLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YDPodDemoLib/YDPodDemoLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YDPodDemoLib/YDPodDemoLib.modulemap";
-				PRODUCT_MODULE_NAME = YDPodDemoLib;
-				PRODUCT_NAME = YDPodDemoLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		E0329ABCCB38D0F4A43824B8B87ECB61 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1012,20 +1016,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4F6823363F333E16E3DD2372D72C79A /* Build configuration list for PBXNativeTarget "YDPodDemoLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4DC0440CEB09D09BBF5E36D1B499390D /* Debug */,
-				B0367418331B1EE6130DA9118C1E51F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		BA1E20E8F65D6531083FC6F9E661D019 /* Build configuration list for PBXNativeTarget "Pods-YDPodDemoLib_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0329ABCCB38D0F4A43824B8B87ECB61 /* Debug */,
 				50F11FB90EB42652AEDAAD5E45B955DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18265655A1FB9A35B1E0D7713016279 /* Build configuration list for PBXNativeTarget "YDPodDemoLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA76696333438CC033E1BE66B9844AA /* Debug */,
+				0218EFB9943E9EDB7A3B3F1D2326AD61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

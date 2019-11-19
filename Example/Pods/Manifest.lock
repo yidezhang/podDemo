@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - YDPodDemoLib (0.1.0)
+  - YDPodDemoLib (0.1.2)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YDPodDemoLib: c6e48d3f514e76b5791ba58eb8af0dee8cdcf097
+  YDPodDemoLib: 009bb2028cc541a70941161cd81958acfa4d81cd
 
 PODFILE CHECKSUM: 39bbb390d9dd3d41f4133098e6049beb32a985a3
 

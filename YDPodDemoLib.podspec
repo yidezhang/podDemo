@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YDPodDemoLib'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = '测试代码'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'YDPodDemoLib/Classes/**/*'
+  
+  s.subspec 'JFNotices' do |ss|
+    ss.source_files = '*'
+    ss.public_header_files = '*.h'
+  end
   
   # s.resource_bundles = {
   #   'YDPodDemoLib' => ['YDPodDemoLib/Assets/*.png']
