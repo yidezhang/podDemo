@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YDPodDemoLib'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = '测试代码'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'YDPodDemoLib/Classes/**/*'
 
   s.subspec 'JFNotices' do |ss|
-    ss.source_files = 'YDPodDemoLib/Classes/JFNotices/*'
+    ss.source_files = 'YDPodDemoLib/Classes/JFNotices/*.{h,m}'
     ss.public_header_files = '*.h'
   end
   

@@ -4,11 +4,11 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - YDPodDemoLib (0.1.2)
+  - YDPodDemoLib/JFNotices (0.1.5)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - YDPodDemoLib (from `../`)
+  - YDPodDemoLib/JFNotices (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -20,8 +20,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YDPodDemoLib: 009bb2028cc541a70941161cd81958acfa4d81cd
+  YDPodDemoLib: 6153e5594acd9bcbf71459f768da242f3dae1c72
 
-PODFILE CHECKSUM: 39bbb390d9dd3d41f4133098e6049beb32a985a3
+PODFILE CHECKSUM: 50bebffe07cd30a092ccdad40bd1dfba66541bae
 
 COCOAPODS: 1.7.2

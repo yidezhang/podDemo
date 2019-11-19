@@ -1,6 +1,6 @@
 {
   "name": "YDPodDemoLib",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "summary": "测试代码",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/yidezhang/podDemo",
@@ -13,10 +13,17 @@
   },
   "source": {
     "git": "https://github.com/yidezhang/podDemo.git",
-    "tag": "0.1.2"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YDPodDemoLib/Classes/**/*"
+  "source_files": "YDPodDemoLib/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "JFNotices",
+      "source_files": "YDPodDemoLib/Classes/JFNotices/*.{h,m}",
+      "public_header_files": "*.h"
+    }
+  ]
 }

@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'YDPodDemoLib_Example' do
-  pod 'YDPodDemoLib', :path => '../'
+  pod 'YDPodDemoLib/JFNotices', :path => '../'
 
   target 'YDPodDemoLib_Tests' do
     inherit! :search_paths
