@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YDPodDemoHeader.h"
 #import "JFNoticeScrollView.h"
 
 FOUNDATION_EXPORT double YDPodDemoLibVersionNumber;
